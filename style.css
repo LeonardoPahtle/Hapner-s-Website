@@ -95,7 +95,7 @@ p{
 
 
 
-
+/* This is the breakpoint that the desktop layout changes into the mobile layout */
 @media only screen and (max-width: 750px) {
 	
 	
