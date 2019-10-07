@@ -8,6 +8,8 @@ body {
 	background-size: cover;
 }
 
+/* Code above (background-repeat and size) makes it so that the background image doesn't repeat */
+
 .top-row{
 	display:flex;
 	height: 60%;
@@ -48,6 +50,7 @@ body {
 	justify-content: center;
 }*/
 
+/* The codes below make the whole webpage look good and organized because it centers most of the images and the texts */
 .center-horizontal {
 	align-items: center;
 }
@@ -119,6 +122,9 @@ p{
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
+	
+/* Code above and below changes the images when it reaches the breakpoint so that it looks different on the mobile layout */
+	
 	.mountains{		
 		content:url("images/mountains2.png");
 	}
